@@ -44,6 +44,12 @@ h5.card-title {
     rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
     rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
+h5.card-title {
+  margin: 0.3rem;
+}
+.card-body {
+  background-color: #b0b0b0;
+}
 .add-btn {
   display: flex;
   justify-content: center;
@@ -60,9 +66,8 @@ h5.card-title {
 }
 
 .formContainer {
-  color: white;
   width: 30rem;
-  background-color: #293e5e;
+  background-color: #e4e6e8;
   padding: 20px;
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -115,7 +120,7 @@ p.description {
 }
 .readmain {
   padding: 2rem;
-  background-color: #d9d9d9;
+  background-color: #b0b0b0;
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   border-radius: 2rem;
@@ -130,4 +135,7 @@ p.description {
 }
 h5.card-title {
   overflow: hidden;
+}
+.mycard {
+  margin: 2rem;
 }
